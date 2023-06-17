@@ -1,0 +1,54 @@
+body {
+    /* Location of the image */
+    background-image: url(bg1.gif);
+    
+    
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    
+    /* Background image is fixed in the viewport so that it doesn't move when
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+    
+    /* Set a background color that will be displayed
+    while the background image is loading */
+    background-color: #464646;
+    }
+
+
+button{
+    padding: 7px 10px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    font-size: 15 px;
+}
+
+button:hover{
+    background-color: rgb(67, 117, 255);
+    color: white;
+}
+
+.inp{
+    border-radius: 20px;
+    padding: 7px 10px;
+}
+
+fieldset{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: larger;
+}
+.link{
+    color: rgb(5, 134, 255);
+}
